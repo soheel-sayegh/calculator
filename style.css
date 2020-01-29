@@ -1,8 +1,10 @@
 body {
   background-image: url(num.jpg);
   background-position: center;
+  padding: 10px;
 }
 .Calculator {
+  background-image: url(2690293634_8557a484b1_b.jpg);
   -webkit-box-shadow: 1px -4px 70px -20px rgba(255, 255, 255, 1);
   -moz-box-shadow: 1px -4px 70px -20px rgba(255, 255, 255, 1);
   box-shadow: 1px -4px 70px -20px rgba(255, 255, 255, 1);
@@ -13,7 +15,7 @@ body {
   width: 100%;
   background: white;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #history {
   text-align: right;
@@ -33,9 +35,19 @@ body {
   padding: 10px;
 }
 .table td button {
-  border-radius: 10px;
   font-weight: bold;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
+.table td .btn-success {
+  width: 100%;
+  border-radius: 20px;
+}
+
 .keyboard {
   margin-top: 20px;
+}
+h4 {
+  font-weight: bold;
 }
