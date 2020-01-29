@@ -9,7 +9,13 @@ body {
   -moz-box-shadow: 1px -4px 70px -20px rgba(255, 255, 255, 1);
   box-shadow: 1px -4px 70px -20px rgba(255, 255, 255, 1);
   border-radius: 10px;
+  padding: 20px;
 }
+.clock {
+  background: black;
+  font-weight: bold;
+}
+
 .result {
   height: 100px;
   width: 100%;
@@ -41,6 +47,10 @@ body {
   width: 50px;
 }
 .table td .btn-success {
+  width: 100%;
+  border-radius: 20px;
+}
+.table td .zero {
   width: 100%;
   border-radius: 20px;
 }
